@@ -1,0 +1,23 @@
+{
+  "name": "favbet-test-senior-node-js-gamedev",
+  "version": "0.0.1",
+  "description": "\"Favbet test task\"",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Volodymyr Stishkovskyi\"",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.3.3"
+  }
+}
